@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+</head>
+<body>
+  <script>
+    /*arguement and return
+    */
+    function areaOfSquare(side) {
+  const area = side * side;
+  return area;
+}
+const a = areaOfSquare(10);
+console.log(`Area of Square :${a} `);
+
+/*Argument but no Return
+*/
+function areaOfSquare(side) {
+  const area = side * side;
+  console.log(`Area of Square :${area} `);
+}
+areaOfSquare(10);
+
+/*No Argument but Return
+*/
+const side = 10;
+function areaOfSquare() {
+  const area = side * side;
+  return area;
+}
+const A = areaOfSquare();
+console.log(`Area of Square :${A}`);
+
+/*No Argument but No Return
+*/
+const sides = 5;
+function areaOfSquare() {
+  const area = side * side;
+  console.log(`Area of Square :${area}`);
+}
+areaOfSquare();
+  </script>  
+</body>
+</html>
